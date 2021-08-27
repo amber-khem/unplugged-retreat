@@ -249,8 +249,7 @@ textarea {
    }
 
    aside .form {
-    margin-top: 10px;
-    margin-right: 140px;
+    margin-top: 30px;
   }
    
   input[type=text] {
@@ -621,8 +620,8 @@ textarea {
     }
 
     aside .content-wrapper .form-description,
-    aside .content-wrapper .form {
-      width: 30%;
+    aside .form {
+      width: 40%;
       margin: 0;
     }
 
@@ -652,6 +651,7 @@ textarea {
 
     .reviews h2 {
       width: 85%;
+      font-size: 2.25em;
     }
 
     .reviews article div,
@@ -660,9 +660,14 @@ textarea {
     }
 
     .reviews h3 {
-      width: 75%;
+      width: 85%;
       margin: 0;
+      font-size: 1.5em;
     }
+
+   .reviews p {
+     font-size: .875em;
+   }
 
     /*footer*/
     footer .content-wrapper {
@@ -787,13 +792,11 @@ textarea {
 
     aside .content-wrapper .form-description, 
     aside .content-wrapper .form {
-      width: 35%;
-      margin-left: 80px;
+      width: 40%;
     }
 
     .form-description p {
       font-size: 1.125em;
-      width: 90%;
     }
 
     /*FEATURES*/
